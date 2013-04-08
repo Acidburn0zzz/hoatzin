@@ -6,7 +6,7 @@ module Hoatzin
 
     FORMAT_VERSION = 2
 
-    attr_reader :classifications
+    attr_reader :classifications, :documents
 
     def initialize options = {}
 
